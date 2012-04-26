@@ -1,0 +1,263 @@
+/* GENERAL
+-------------------------------------------------------- */
+
+html, body{
+	margin: 0;
+	padding: 0;
+	color: #CCCCCC;
+	font-size: 12px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	background: black;
+	word-wrap: break-word;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+h1 {
+	font-size: 34px;
+}
+
+a {
+	color: #bbbbbb;
+}
+
+a:visited {
+	color: white;
+}
+
+hr {
+	color: #222222;
+	background-color:black;
+	clear:left;
+}
+
+@media only screen and (min-device-width: 480px) {
+	#mobilelink {
+		display: none;
+	}
+}
+
+/* LAYOUT
+-------------------------------------------------------- */
+
+#top {
+	text-align: center;
+	height: 120px;
+	display: block;
+	color: #fff;
+	
+}
+
+#top h1 a {
+	font-family: "Trebuchet MS", Verdana, Arial, Sans-serif;
+	font-size: 36px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+#top h2 {
+	margin:-20px;
+	padding:0;
+}
+
+#page {
+	width: 900px;
+	margin: 25px auto 0;
+	background: black;
+	padding: 20px;
+	border: 1px solid #333333;
+}
+
+#contenu {
+	display: block;
+	width: 600px;
+	padding: 0 15px 0 15px;
+}
+
+#sidebar {
+	display: block;
+	width: 220px;
+	margin-top: 15px;
+	padding: 15px;
+	border: 1px solid #333333;
+	background: black;
+	float: right;
+}
+
+
+/* POST
+-------------------------------------------------------- */
+
+#post {
+	margin: 0 100px 0 100px;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 30px;
+}
+
+h3 {
+	display: block;
+	margin-bottom: 0;
+}
+
+/* POST BLOCS
+-------------------------------------------------------- */
+
+.news {
+	padding: 0 0 0 25px;
+	border-bottom: 1px solid #222222;
+	margin: 0 0 15px 0;
+	background: url("star.gif") no-repeat left 5px;
+}
+
+.news h2 a:visited {
+	color: #bbbbbb;
+}
+
+
+
+.news h3 {
+	font-size: 20px;
+}
+
+.chapo {
+	text-indent:2em;
+}
+
+/* COMMENT BLOCS
+-------------------------------------------------------- */
+
+.comment {
+	background: black;
+	border: 1px dashed #333333;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.comment h3 {
+	margin-top: 0;
+}
+
+/* FORM COMMENT
+-------------------------------------------------------- */
+
+#postcom {
+	padding: 20px;
+	background: black;
+	border-top: 1px solid #ddd;
+}
+
+#postcom p {
+	margin: 0;
+}
+
+#postcom label {
+	margin-top: 5px;
+}
+
+textarea.commentaire {
+	width: 555px;
+	height: 200px;
+}
+.infos input, textarea.commentaire {
+	border: 1px solid gray;
+}
+
+.formatbut input, .infos input {
+	display: inline;
+	min-width: 26px;
+}
+
+.formatbut .pm {
+	float: right;
+}
+
+.formatbut input[value="B"] { font-weight: bold; }
+.formatbut input[value="I"] { font-style: italic; }
+.formatbut input[value="U"] { text-decoration: underline; }
+.formatbut input[value="S"] { text-decoration: line-through; }
+
+#form-commentaire fieldset {
+	border: none;
+	margin:0;
+	padding:0;
+}
+
+#form-commentaire .infos {
+	text-align:right;
+	width: 430px;
+	margin: 10px auto;
+}
+#form-commentaire fieldset.infos input {
+	margin-top: 2px;
+}
+
+#form-commentaire .buttons {
+	margin-top: 15px;
+	text-align: center;
+}
+
+/* CALENDAR
+-------------------------------------------------------- */
+
+#calendrier {
+	display: block;
+	float: left;
+	width: 220px;
+	border: 1px solid #333333;
+	margin-bottom: 10px;
+}
+
+#calendrier caption {
+	background: black;
+	color: #666;
+	padding: 4px;
+}
+
+#calendrier caption a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#calendrier td {
+	font-size: 12px;
+	color: #555;
+	text-align: center;
+	background: black;
+	width: 30px;
+	line-height: 2em;
+}
+
+#calendrier td a{
+	display: block;
+	text-decoration: none;
+	color: #aaaaaa;
+	background: #333333;
+	font-weight: bold;
+}
+
+#calendrier td a:hover {
+	background: #666666;
+	color: #fff;
+}
+
+#calendrier td.active a {
+	color:#fff;
+	background: #0066CC;
+}
+
+/* OTHERS
+-------------------------------------------------------- */
+
+#footer {
+	text-align: center;
+	color: #999;
+}
+
